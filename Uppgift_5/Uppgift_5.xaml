@@ -1,0 +1,16 @@
+﻿<Window x:Class="Uppgift_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Uppgift_5"
+        mc:Ignorable="d"
+        Title="Miniräknare" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="InputOne" HorizontalAlignment="Left" Margin="100,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="InputTwo" HorizontalAlignment="Left" Margin="100,130,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TotalSum" HorizontalAlignment="Left" Margin="100,200,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="CalculateSum" Content="Räkna ut" HorizontalAlignment="Left" Margin="100,250,0,0" VerticalAlignment="Top" Click="BtnClick"/>
+        <Button x:Name="ClearAll" Content="Rensa" HorizontalAlignment="Left" Margin="175,250,0,0" VerticalAlignment="Top" Width="50" Click="BtnClick"/>
+    </Grid>
+</Window>
