@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift_1", "Uppgift_1\Uppgift_1.csproj", "{00CF34E6-2F78-4544-B1D8-0783B6D96390}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift_1", "Uppgift_1\Uppgift_1.csproj", "{00CF34E6-2F78-4544-B1D8-0783B6D96390}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift_2", "Uppgift_2\Uppgift_2.csproj", "{0D36A0D1-4693-47DE-9CD7-5C9E7E6449FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift_2", "Uppgift_2\Uppgift_2.csproj", "{0D36A0D1-4693-47DE-9CD7-5C9E7E6449FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift_3", "Uppgift_3\Uppgift_3.csproj", "{8C5D3263-77D8-45E5-BEAC-5016B0955C97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift_3", "Uppgift_3\Uppgift_3.csproj", "{8C5D3263-77D8-45E5-BEAC-5016B0955C97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift_4", "Uppgift_4\Uppgift_4.csproj", "{56E5911D-0384-447B-8756-1E9345DDD204}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8C5D3263-77D8-45E5-BEAC-5016B0955C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C5D3263-77D8-45E5-BEAC-5016B0955C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C5D3263-77D8-45E5-BEAC-5016B0955C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E5911D-0384-447B-8756-1E9345DDD204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E5911D-0384-447B-8756-1E9345DDD204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E5911D-0384-447B-8756-1E9345DDD204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E5911D-0384-447B-8756-1E9345DDD204}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
