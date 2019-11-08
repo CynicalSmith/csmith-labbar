@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift_2", "Uppgift_2\Uppg
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift_3", "Uppgift_3\Uppgift_3.csproj", "{8C5D3263-77D8-45E5-BEAC-5016B0955C97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift_4", "Uppgift_4\Uppgift_4.csproj", "{56E5911D-0384-447B-8756-1E9345DDD204}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift_4", "Uppgift_4\Uppgift_4.csproj", "{56E5911D-0384-447B-8756-1E9345DDD204}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift_5", "Uppgift_5\Uppgift_5.csproj", "{8123D2C2-C7D7-4BDB-953C-3CCC0C01EF30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift_5", "Uppgift_5\Uppgift_5.csproj", "{8123D2C2-C7D7-4BDB-953C-3CCC0C01EF30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift_6", "Uppgift_6\Uppgift_6.csproj", "{63FC1AF3-6AFA-4B37-AC8C-A89484C88E49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift_6", "Uppgift_6\Uppgift_6.csproj", "{63FC1AF3-6AFA-4B37-AC8C-A89484C88E49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift_7", "Uppgift_7\Uppgift_7.csproj", "{97543621-E2E9-4AFF-BC1C-2F0DF7D045DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{63FC1AF3-6AFA-4B37-AC8C-A89484C88E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63FC1AF3-6AFA-4B37-AC8C-A89484C88E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63FC1AF3-6AFA-4B37-AC8C-A89484C88E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97543621-E2E9-4AFF-BC1C-2F0DF7D045DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97543621-E2E9-4AFF-BC1C-2F0DF7D045DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97543621-E2E9-4AFF-BC1C-2F0DF7D045DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97543621-E2E9-4AFF-BC1C-2F0DF7D045DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
