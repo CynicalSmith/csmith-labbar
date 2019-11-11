@@ -1,0 +1,9 @@
+﻿<Application x:Class="Uppgift_9a.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Uppgift_9a"
+             StartupUri="Uppgift_9a.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

@@ -1,0 +1,19 @@
+﻿<Window x:Class="Uppgift_9a.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Uppgift_9a"
+        mc:Ignorable="d"
+        Title="Bioålder" Height="450" Width="800">
+    <Grid>
+        <Label Content="Namn" HorizontalAlignment="Left" Margin="90,80,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ålder" HorizontalAlignment="Left" Margin="90,150,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Explanation" Content="" HorizontalAlignment="Left" Margin="90,260,0,0" VerticalAlignment="Top"/>
+        
+        <Button x:Name="Check" Content="Kontrollera" HorizontalAlignment="Left" Margin="170,215,0,0" VerticalAlignment="Top" Click="BtnClk"/>
+
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Margin="90,110,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Age" HorizontalAlignment="Left" Margin="90,180,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>
