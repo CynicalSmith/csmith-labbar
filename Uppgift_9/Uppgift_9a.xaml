@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Uppgift_9a"
         mc:Ignorable="d"
-        Title="Bioålder" Height="450" Width="800">
+        Title="Bioålder v 2.0" Height="450" Width="800">
     <Grid>
         <Label Content="Namn" HorizontalAlignment="Left" Margin="90,80,0,0" VerticalAlignment="Top"/>
         <Label Content="Ålder" HorizontalAlignment="Left" Margin="90,150,0,0" VerticalAlignment="Top"/>

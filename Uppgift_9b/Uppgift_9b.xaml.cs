@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,9 +22,11 @@ namespace Uppgift_9b
     public partial class MainWindow : Window
     {
         private bool adult;
+
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
         private void WithAdult_Checked(object sender, RoutedEventArgs e)

@@ -1,0 +1,18 @@
+﻿<Window x:Class="Uppgift_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Uppgift_10"
+        mc:Ignorable="d"
+        Title="Slumpgenerator" Height="450" Width="800" Background="Beige">
+    <Grid>
+        <Label Content="Gissning" HorizontalAlignment="Left" Margin="97,79,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Guess" HorizontalAlignment="Left" Margin="97,110,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <Button Content="Slumpa Tal" HorizontalAlignment="Left" Margin="241,108,0,0" VerticalAlignment="Top" Click="RngGenerate_Click"/>
+        <Button x:Name="BtnGuess" Content="Gissa" HorizontalAlignment="Left" Margin="241,145,0,0" VerticalAlignment="Top" Click="Guess_Click" IsEnabled="False"/>
+        <TextBlock x:Name="TextOut" HorizontalAlignment="Left" Margin="45,139,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="67" Width="172"/>
+
+    </Grid>
+</Window>
