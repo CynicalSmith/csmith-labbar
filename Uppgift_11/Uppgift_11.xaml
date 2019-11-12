@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Uppgift_11"
         mc:Ignorable="d"
-        Title="Oturskalkylator" Height="450" Width="800" Background="Bisque">
+        Title="Oturskalkylator" Height="340" Width="420" Background="Bisque">
     <Grid>
+        <Button x:Name="MoreLuck" Content="Mer Otur" HorizontalAlignment="Center" Margin="-200,0,0,0" VerticalAlignment="Center" Width="75" Click="Luck_Click"/>
+        <Button x:Name="LessLuck" Content="Mer Tur" HorizontalAlignment="Center" Margin="200,0,0,0" VerticalAlignment="Center" Click="Luck_Click"/>
 
+        <Label Name="Lucky" Content="50%" HorizontalAlignment="Left" Margin="227,126,0,0" VerticalAlignment="Top"/>
+        <Label Name="Unlucky" Content="50%" HorizontalAlignment="Left" Margin="160,126,0,0" VerticalAlignment="Top"/>
+
+        <ProgressBar x:Name="VisualLuck" HorizontalAlignment="Center" Height="10" Margin="0,0,0,0" VerticalAlignment="Center" Width="100" Minimum="0" Maximum="100" Value="50"/>
+
+        <Button Content="Starta!" HorizontalAlignment="Center" Margin="0,230,0,0" VerticalAlignment="Top" Width="76" Click="Start_Click"/>
+
+        <TextBox x:Name="NumberTries" HorizontalAlignment="Center" Margin="0,207,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="76"/>
+
+        <Label Content="Antal Försök" HorizontalAlignment="Center" Margin="0,172,0,0" VerticalAlignment="Top" Height="30"/>
+
+        <TextBlock x:Name="InfoResult" HorizontalAlignment="Left" Margin="10,217,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="68" Width="138"/>
+        <Label Content="Utfall" HorizontalAlignment="Left" Margin="60,187,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
