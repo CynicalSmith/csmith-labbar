@@ -24,18 +24,18 @@ namespace Uppgift_11
         int luck, flips, success, fails, edge;
         Random flip = new Random();
 
+        public MainWindow()
+        {
+            InitializeComponent();
+            ResultUpdate(0, 0, 0);
+        }
+
         private void ResultUpdate(int s, int f, int e)
         {
             InfoResult.Text = 
                 "Antal åt rätt håll: " + s + Environment.NewLine + 
                 "Antal åt fel håll: " + f + Environment.NewLine + 
                 "Antal som hamnade på kanten: " + e;
-        }
-
-        public MainWindow()
-        {
-            InitializeComponent();
-            ResultUpdate(0,0,0);
         }
 
         private void Luck_Click(object sender, RoutedEventArgs e)
