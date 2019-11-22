@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Uppgift_13"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="349">
+        Title="Bokstavsräknare" Height="450" Width="349">
     <Grid>
         <Label Content="Text att söka i" HorizontalAlignment="Left" Margin="81,83,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="TextInputText" HorizontalAlignment="Left" Margin="58,109,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="152" Width="116" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
