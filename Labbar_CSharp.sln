@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift_15", "Uppgift _15\U
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banken", "Banken", "{E8A30F17-D768-49CF-B09D-23EEE622C6DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift_Banken", "Uppgift_Banken\Uppgift_Banken.csproj", "{D747B663-F0C5-4C01-A89B-F698B103F04D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift_Banken", "Uppgift_Banken\Uppgift_Banken.csproj", "{D747B663-F0C5-4C01-A89B-F698B103F04D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labb_1", "Labb_1", "{89E5DD2F-F23C-464E-846D-E2A52596D605}"
 EndProject

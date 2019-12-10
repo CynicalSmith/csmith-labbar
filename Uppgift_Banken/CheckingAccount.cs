@@ -7,13 +7,12 @@ namespace Uppgift_Banken
     class CheckingAccount : BankAccount
     {
         private decimal Credit { get; set; }
-        protected override int AccountType { get; set; } = 1;
+        public decimal MaxCredit { get; private set; }
 
         public override bool Withdraw(decimal withdrawAmount)
         {
-            if ((Credit + Balance - withdrawAmount) > 0)
+            if ((Credit + Balance - withdrawAmount) >= 0)
             {
-                Balance -= withdrawAmount;
                 return true;
             }
             else
@@ -22,28 +21,42 @@ namespace Uppgift_Banken
             }
         }
 
-        public override decimal Deposit(decimal i)
+        public override void Deposit(decimal i)
         {
-            if (Credit < 0)
+            if (Credit < MaxCredit && Balance <= 0)
             {
-                i += Credit;
-                Credit -= Credit;
+                Credit = MaxCredit % i;
+                if (MaxCredit % i > 0)
+                {
+                    Balance += MaxCredit % i;
+                }
+            } 
+            
+            else if (Credit >= MaxCredit)
+            {
                 Balance += i;
             }
-            else
-            {
-                Balance += i + Credit;
-            }
-            return Balance;
+
         }
         public override decimal Funds()
         {
-            return (Balance + Credit);
+            return Balance + Credit;
         }
 
-        public decimal ChangeCredit(decimal c)
+        public decimal SetCredit(decimal c)
         {
             Credit += c;
+            return Credit;
+        }
+
+        public decimal SetMaxCredit(decimal c)
+        {
+            MaxCredit = c;
+            Credit = MaxCredit;
+            return MaxCredit;
+        }
+        public decimal GetCredit()
+        {
             return Credit;
         }
     }

@@ -6,12 +6,4 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Banken.xaml.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Page Remove="Banken.xaml" />
-  </ItemGroup>
-
 </Project>
