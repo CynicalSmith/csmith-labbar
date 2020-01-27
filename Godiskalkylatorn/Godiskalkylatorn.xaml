@@ -1,0 +1,30 @@
+﻿<Window x:Class="Godiskalkylatorn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Godiskalkylatorn"
+        mc:Ignorable="d"
+        Title="Godiskalkylatorn" Height="450" Width="800">
+    <Grid>
+
+        <Label Content="Ålder" HorizontalAlignment="Left" Margin="134,182,0,0" VerticalAlignment="Top"/>
+        <Label Content="Namn" HorizontalAlignment="Left" Margin="134,151,0,0" VerticalAlignment="Top"/>
+        <Label Content="Godisar" HorizontalAlignment="Left" Margin="509,210,0,0" VerticalAlignment="Top"/>
+
+        <TextBox Name="Name" HorizontalAlignment="Left" Margin="172,155,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="Age" HorizontalAlignment="Left" Margin="172,187,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="CandiesTotal" HorizontalAlignment="Left" Margin="565,214,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <ListView Name="PersonList" Margin="315,97,296,142" ItemsSource="{Binding}"/>
+
+        <Button Name="NewPerson" Content="Lägg till" HorizontalAlignment="Left" Margin="172,210,0,0" VerticalAlignment="Top" Click="NewPerson_Click"/>
+        <Button Name="CalculateCandies" Content="Beräkna" HorizontalAlignment="Left" Margin="565,241,0,0" VerticalAlignment="Top" Click="CalculateCandies_Click"/>
+        <Button Name="SaveList" Content="Spara Lista" HorizontalAlignment="Left" Margin="565,266,0,0" VerticalAlignment="Top" Click="SaveList_Click"/>
+
+        <RadioButton Name="AgeSort" Content="ÅlderSorterat" HorizontalAlignment="Left" Margin="565,122,0,0" VerticalAlignment="Top" Checked="AgeSort_Checked"/>
+        <RadioButton Name="NameSort" Content="Bokstavsordning" HorizontalAlignment="Left" Margin="565,140,0,0" VerticalAlignment="Top" IsChecked="False" Checked="NameSort_Checked"/>
+        <RadioButton Name="OriginalSort" Content="Originalformat" HorizontalAlignment="Left" Margin="565,158,0,0" VerticalAlignment="Top" IsChecked="False" Checked="OriginalSort_Checked"/>
+
+    </Grid>
+</Window>

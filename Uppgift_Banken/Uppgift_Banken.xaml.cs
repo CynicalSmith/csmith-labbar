@@ -12,25 +12,15 @@ using System.Windows.Shapes;
 
 namespace Uppgift_Banken
 {
-    /*
-     * Fixa visa konto från systems collection
-     * Kolla varför override ToString() inte fungerar
-     * Göra klart sista delarna till en fungerade nivå
-     * 
-     * Jobba på "avancerade" delar, insättning och uttag mm.
-    */
-
-
-
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        public List<Customer> allCustomers = new List<Customer>();
-        Customer activeCustomer = new Customer();
-        public List<BankAccount> activeBankAccounts = new List<BankAccount>();
-        BankAccount activeAccount = new BankAccount();
+        List<Customer> allCustomers = new List<Customer>();
+        private Customer activeCustomer = new Customer();
+        List<BankAccount> activeBankAccounts = new List<BankAccount>();
+        BankAccount activeAccount;// = new BankAccount();
         
         public MainWindow()
         {

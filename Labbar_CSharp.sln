@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift_Banken", "Uppgift_B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labb_1", "Labb_1", "{89E5DD2F-F23C-464E-846D-E2A52596D605}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Godiskalkylatorn", "Godiskalkylatorn\Godiskalkylatorn.csproj", "{EE71AE42-6404-4560-B1D1-49339F6AE487}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -115,6 +117,10 @@ Global
 		{D747B663-F0C5-4C01-A89B-F698B103F04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D747B663-F0C5-4C01-A89B-F698B103F04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D747B663-F0C5-4C01-A89B-F698B103F04D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE71AE42-6404-4560-B1D1-49339F6AE487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE71AE42-6404-4560-B1D1-49339F6AE487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE71AE42-6404-4560-B1D1-49339F6AE487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE71AE42-6404-4560-B1D1-49339F6AE487}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -137,6 +143,7 @@ Global
 		{0FFEE8FA-0274-4484-8144-6A33918D2C74} = {89E5DD2F-F23C-464E-846D-E2A52596D605}
 		{EDA99E91-29D1-42C0-8F82-3316FAAEE2D8} = {89E5DD2F-F23C-464E-846D-E2A52596D605}
 		{D747B663-F0C5-4C01-A89B-F698B103F04D} = {E8A30F17-D768-49CF-B09D-23EEE622C6DF}
+		{EE71AE42-6404-4560-B1D1-49339F6AE487} = {E8A30F17-D768-49CF-B09D-23EEE622C6DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {381BC588-3DD1-4855-B9E8-B7388D2DBC1C}

@@ -1,0 +1,24 @@
+﻿<Window x:Class="VictorSmith.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VictorSmith"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TxtbNumberOfEggs" HorizontalAlignment="Left" Height="23" Margin="23,24,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="BtnCalculate" Content="Uppgift 1" HorizontalAlignment="Left" Margin="23,52,0,0" VerticalAlignment="Top" Width="75" Click="BtnCalculate_Click"/>
+        <TextBlock x:Name="TxtblOutput" HorizontalAlignment="Left" Margin="23,79,0,0" TextWrapping="Wrap" Text="Du skall leverera 0 st kartonger till ett pris av 0,0 kr." VerticalAlignment="Top" Height="124" Width="107"/>
+        
+        <Button x:Name="BtnBrokenEggs" Content="Uppgift 2 och 3" HorizontalAlignment="Left" Margin="195,25,0,0" VerticalAlignment="Top" Width="94" Click="BtnBrokenEggs_Click"/>
+        
+        <Button x:Name="BtnAddHen" Content="Uppgift 4, 5, och 6" HorizontalAlignment="Left" Margin="195,52,0,0" VerticalAlignment="Top" Width="106" Click="BtnAddHen_Click"/>
+
+        <Button x:Name="BtnEggsInBasket" Content="Uppgift 7" HorizontalAlignment="Left" Margin="195,79,0,0" VerticalAlignment="Top" Width="75" Click="BtnEggsInBasket_Click"/>
+
+        <Button x:Name="BtnLayEggTwo" Content="Uppgift 8 och 9" HorizontalAlignment="Left" Margin="195,106,0,0" VerticalAlignment="Top" Width="94" Click="BtnLayEggTwo_Click"/>
+        <Button x:Name="BtnClassify" Content="Uppgift 10" HorizontalAlignment="Left" Margin="195,133,0,0" VerticalAlignment="Top" Width="75" Click="BtnClassify_Click"/>
+
+    </Grid>
+</Window>
